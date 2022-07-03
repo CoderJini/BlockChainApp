@@ -1,9 +1,12 @@
+import styles from "./App.module.css"
+import Hello from "./component/Hello";
 
 function App() {
 
   return (
     <div>
-        <h1>main</h1>
+        <div className={styles.box}>App</div>
+        <Hello/>
     </div>
   );
 }
