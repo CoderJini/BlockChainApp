@@ -1,14 +1,13 @@
-import styles from "./App.module.css"
-import Hello from "./component/Hello";
+import "./App.css";
+import Header from "./component/Header";
 
 function App() {
 
   return (
     <div>
-        <div className={styles.box}>App</div>
-        <Hello/>
+      <Header/>
     </div>
-  );
+  )
 }
 
 export default App;

@@ -1,0 +1,29 @@
+/* START 버튼 css START */
+button {
+    margin: 20px;
+}
+
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 7px 14px;
+    border-radius: 8px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    background-color: #ECEBFF;
+}
+
+.w-btn:hover {
+    letter-spacing: 1px;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.w-btn:active {
+    transform: scale(1.1);
+}
+/* END 버튼 css END*/
