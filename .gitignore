@@ -24,4 +24,7 @@ yarn-error.log*
 
 
 # klaytn setting file
-./src/klaytnno
+./src/klaytn
+
+# package-lock.json file
+./package-lock.json
