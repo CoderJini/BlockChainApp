@@ -7,18 +7,18 @@ const Header = () =>{
 
     return (
         <header className="navbar navbar-inverse">
-            <Link to="/" className="navbar-brand">Dream</Link>
+            <Link to="/"><img alt="logo" className="navbar-left logo" src="./DreamLogo_White.ico"></img></Link>
             <ul className="nav navbar-nav navbar-left">
                 {
                     dummy.mainManu.map(function(mainManu){
                         if(mainManu.type === "dropdown"){
                             return (
-                                <li className="dropdown">
+                                <li key={mainManu.id} className="dropdown">
                                     <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{mainManu.name}<span className="caret"></span></a>
                                     <ul className="dropdown-menu" role="menu">
                                         {
                                             mainManu.content.map(function(content){
-                                                return <li><Link to={content.router}>{content.name}</Link></li>
+                                                return <li key={content.id}><Link to={content.router}>{content.name}</Link></li>
                                             })
                                         }
                                     </ul>
