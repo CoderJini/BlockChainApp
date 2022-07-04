@@ -1,0 +1,28 @@
+{
+    "mainManu" : [
+        {
+            "id" : 1,
+            "sortNum" : 1,
+            "name" : "대시보드",
+            "router" : "/"
+        },
+        {
+            "id" : 2,
+            "sortNum" : 2,
+            "name" : "페이지1",
+            "router" : "/page"
+        },
+        {
+            "id" : 3,
+            "sortNum" : 3,
+            "name" : "설정",
+            "router" : "/setting"
+        },
+        {
+            "id" : 4,
+            "sortNum" : 4,
+            "name" : "카운팅앱(klaytn)",
+            "router" : "/countApp"
+        }
+    ]
+}
