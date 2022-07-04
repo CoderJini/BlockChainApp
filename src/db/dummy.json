@@ -30,14 +30,6 @@
                     "name" : "카운팅앱",
                     "router" : "/klayCountApp",
                     "content" : null
-                },
-                {
-                    "id" : 3.02,
-                    "type" : "dropmenu",
-                    "sortNum" : 3.02,
-                    "name" : "카운팅앱2",
-                    "router" : "/klayCountApp2",
-                    "content" : null
                 }
             ]
         },

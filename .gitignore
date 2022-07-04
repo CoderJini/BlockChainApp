@@ -24,4 +24,4 @@ yarn-error.log*
 
 
 # klaytn setting file
-./src/klaytn
+./src/klaytnno

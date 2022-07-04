@@ -7,7 +7,7 @@ const Header = () =>{
 
     return (
         <header className="navbar navbar-inverse">
-            <Link to="/" className="navbar-brand">Block Chain App</Link>
+            <Link to="/" className="navbar-brand">Dream</Link>
             <ul className="nav navbar-nav navbar-left">
                 {
                     dummy.mainManu.map(function(mainManu){
@@ -28,10 +28,6 @@ const Header = () =>{
                             return <li key={mainManu.id}><Link to={mainManu.router}>{mainManu.name}</Link></li>
                         }
                     })
-
-                    // dummy.mainManu.forEach(function(mainManu){
-                    //     <li key={mainManu.id}><Link to={mainManu.router}>{mainManu.name}</Link></li>
-                    // })
                 }
             </ul>
         </header>
