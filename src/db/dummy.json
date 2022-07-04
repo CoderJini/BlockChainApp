@@ -1,0 +1,43 @@
+{
+    "mainManu" : [
+        {
+            "id" : 1,
+            "type" : "manu",
+            "sortNum" : 1,
+            "name" : "대시보드",
+            "router" : "/",
+            "content" : null
+        },
+        {
+            "id" : 2,
+            "type" : "manu",
+            "sortNum" : 2,
+            "name" : "페이지1",
+            "router" : "/page",
+            "content" : null
+        },
+        {
+            "id" : 3,
+            "type" : "drapdown",
+            "sortNum" : 3,
+            "name" : "클레이튼샘플",
+            "router" : "/klaytnSample",
+            "content" : [
+                {
+                    "id" : 3.01,
+                    "sortNum" : 3.01,
+                    "name" : "카운팅앱",
+                    "router" : "/klayCountApp",
+                    "content" : null
+                }
+            ]
+        },
+        {
+            "id" : 99,
+            "sortNum" : 99,
+            "name" : "설정",
+            "router" : "/setting",
+            "content" : null
+        }
+    ]
+}
