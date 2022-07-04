@@ -1,12 +1,12 @@
-import styles from "./NotFoundPage.module.css";
-import {useState} from "react";
+import React, { Component, Fragment, useState } from 'react';
+import styles from "./NotFoundPage.module.scss";
 
 const NotFoundPage = () =>{
 
     return (
-        <div>
+        <Fragment>
             페이지를 찾을 수 없습니다.
-        </div>
+        </Fragment>
     )
 }
 

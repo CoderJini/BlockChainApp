@@ -1,4 +1,6 @@
-import "./App.css";
+import React from 'react'
+
+import "./App.scss";
 import Header from "./component/Header";
 import Dashboard from "./component/Dashboard";
 import PageContent from "./component/PageContent";
@@ -9,7 +11,6 @@ import NotFoundPage from "./component/NotFoundPage";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom"
 
 function App() {
-
   return (
     <BrowserRouter>
       <Header/>

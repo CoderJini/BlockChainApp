@@ -1,12 +1,12 @@
-import styles from "./PageContent.module.css";
-import {useState} from "react";
+import React, { Component, Fragment, useState } from 'react';
+import styles from "./PageContent.module.scss";
 
 const PageContent = () =>{
 
     return (
-        <div>
+        <Fragment>
             PageContent Sample
-        </div>
+        </Fragment>
     )
 }
 

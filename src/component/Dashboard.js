@@ -1,12 +1,12 @@
-import styles from "./Dashboard.module.css";
-import {useState} from "react";
+import React, { Component, Fragment, useState } from 'react';
+import styles from "./Dashboard.module.scss";
 
 const Dashboard = () =>{
 
     return (
-        <div>
+        <Fragment>
             대쉬보드
-        </div>
+        </Fragment>
     )
 }
 

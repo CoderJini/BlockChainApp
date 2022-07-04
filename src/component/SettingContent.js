@@ -1,12 +1,12 @@
-import styles from "./SettingContent.module.css";
-import {useState} from "react";
+import React, { Component, Fragment, useState } from 'react';
+import styles from "./SettingContent.module.scss";
 
 const SettingContent = () =>{
 
     return (
-        <div>
+        <Fragment>
             Setting Page
-        </div>
+        </Fragment>
     )
 }
 
