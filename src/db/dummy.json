@@ -2,7 +2,7 @@
     "mainManu" : [
         {
             "id" : 1,
-            "type" : "manu",
+            "type" : "menu",
             "sortNum" : 1,
             "name" : "대시보드",
             "router" : "/",
@@ -10,7 +10,7 @@
         },
         {
             "id" : 2,
-            "type" : "manu",
+            "type" : "menu",
             "sortNum" : 2,
             "name" : "페이지1",
             "router" : "/page",
@@ -18,22 +18,32 @@
         },
         {
             "id" : 3,
-            "type" : "drapdown",
+            "type" : "dropdown",
             "sortNum" : 3,
             "name" : "클레이튼샘플",
             "router" : "/klaytnSample",
             "content" : [
                 {
                     "id" : 3.01,
+                    "type" : "dropmenu",
                     "sortNum" : 3.01,
                     "name" : "카운팅앱",
                     "router" : "/klayCountApp",
+                    "content" : null
+                },
+                {
+                    "id" : 3.02,
+                    "type" : "dropmenu",
+                    "sortNum" : 3.02,
+                    "name" : "카운팅앱2",
+                    "router" : "/klayCountApp2",
                     "content" : null
                 }
             ]
         },
         {
             "id" : 99,
+            "type" : "menu",
             "sortNum" : 99,
             "name" : "설정",
             "router" : "/setting",

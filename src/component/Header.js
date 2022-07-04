@@ -10,9 +10,28 @@ const Header = () =>{
             <Link to="/" className="navbar-brand">Block Chain App</Link>
             <ul className="nav navbar-nav navbar-left">
                 {
-                    dummy.mainManu.map(mainManu=>(
-                        <li key={mainManu.id}><Link to={mainManu.router}>{mainManu.name}</Link></li>
-                    ))
+                    dummy.mainManu.map(function(mainManu){
+                        if(mainManu.type === "dropdown"){
+                            return (
+                                <li className="dropdown">
+                                    <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{mainManu.name}<span className="caret"></span></a>
+                                    <ul className="dropdown-menu" role="menu">
+                                        {
+                                            mainManu.content.map(function(content){
+                                                return <li><Link to={content.router}>{content.name}</Link></li>
+                                            })
+                                        }
+                                    </ul>
+                                </li>
+                            )
+                        }else{
+                            return <li key={mainManu.id}><Link to={mainManu.router}>{mainManu.name}</Link></li>
+                        }
+                    })
+
+                    // dummy.mainManu.forEach(function(mainManu){
+                    //     <li key={mainManu.id}><Link to={mainManu.router}>{mainManu.name}</Link></li>
+                    // })
                 }
             </ul>
         </header>
